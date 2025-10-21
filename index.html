@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soft Tintas: las mejores tintas calidad-precio para tus impresiones.">
+  <title>Soft Tintas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+  <header>
+    <h1>Soft Tintas</h1>
+    <p><i>Las mejores tintas calidad-precio</i></p>
+    <img src="fotoreto1.jpeg" alt="Fotografía de envases de tintas de colores" width="300">
+  </header>
+
+  <nav id="nav"></nav>
+
+  <main id="contenido">
+    <!-- Sección Inicio -->
+    <section id="seccion-inicio" class="seccion">
+      <h2>Sobre nuestros servicios</h2>
+      <ul class="servicios">
+        <li class="servicio">Tintas para impresoras domésticas</li>
+        <li class="servicio">Tintas profesionales para negocios</li>
+        <li class="servicio">Asesoramiento personalizado</li>
+      </ul>
+
+      <p id="contador"></p>
+
+      <div class="botones-contacto">
+        <a class="btn-whatsapp" href="https://wa.me/8494962128" target="_blank" rel="noopener">
+          📱 WhatsApp
+        </a>
+        <a class="btn-instagram" href="https://www.instagram.com/zierow.1?igsh=MTE0ODYwamNld2Z2NQ==" target="_blank" rel="noopener">
+          🌐 Instagram
+        </a>
+      </div>
+    </section>
+
+    <!--Productos -->
+    <section id="seccion-productos" class="seccion" style="display: none;">
+      <h2>Nuestros Productos</h2>
+      <div id="productos-contenido"></div>
+    </section>
+
+    <!--Servicios -->
+    <section id="seccion-servicios" class="seccion" style="display: none;">
+      <h2>Nuestros Servicios</h2>
+      <div id="servicios-contenido"></div>
+    </section>
+
+    <!--Contacto -->
+    <section id="seccion-contacto" class="seccion" style="display: none;">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <h3 class="texto-centro">Encuéntranos</h3>
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps?q=19.325884,-69.547987&hl=es&z=15&output=embed"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Soft Tintas</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
